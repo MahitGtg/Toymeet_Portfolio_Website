@@ -25,7 +25,7 @@ function Hero({ onNav }) {
           </div>
         </div>
         <div className="tmk-hero__portrait">
-          <img src="https://toymeetedits.netlify.app/toymeet.jpg" alt="Toymeet" onError={(e)=>{e.currentTarget.style.display='none';e.currentTarget.parentNode.classList.add('is-empty');}} />
+          <img src="public/images/Toymeet Portfolio.jpg" alt="Toymeet" onError={(e)=>{e.currentTarget.style.display='none';e.currentTarget.parentNode.classList.add('is-empty');}} />
           <span className="tmk-hero__portrait-tag">Editor</span>
         </div>
       </div>
