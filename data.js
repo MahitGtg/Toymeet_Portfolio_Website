@@ -27,8 +27,18 @@ window.TOYMEET_DATA = {
 
   /* Previously worked with (no current reel clips supplied) */
   workedWith: [
-    { client: 'Emilyywang', handle: '@emilyywang' },
-    { client: 'BloodyTFT',  handle: '@bloodytft' },
+    {
+      client: 'Emilyywang',
+      handle: '@emilyywang',
+      youtube: 'https://www.youtube.com/@emilyywang',
+      image: 'https://yt3.googleusercontent.com/ytc/AIdro_nkKFeZ3LdxWgS7v0ydOREuWAsch8oKJwdYDiJErgDpKA=s240-c-k-c0x00ffffff-no-rj',
+    },
+    {
+      client: 'BloodyTFT',
+      handle: '@BloodyTFT',
+      youtube: 'https://www.youtube.com/@BloodyTFT',
+      image: 'https://yt3.googleusercontent.com/pC9rt48TEXsKWrlW9GIgxWTN8rRv2_IcRxgyg5OFmhcGQ45I7n1dxpm5wkIeydHiZ4EOkbfCNw=s240-c-k-c0x00ffffff-no-rj',
+    },
   ],
 
   clients: ['SendTFT', 'Dishsoap', 'Frodan', 'robinsongz', 'TFT Academy', 'Subzeroark', 'Emilyywang', 'BloodyTFT'],
