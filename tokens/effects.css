@@ -1,0 +1,30 @@
+/* ============================================================
+   TOYMEET — Borders, radii, shadows, motion
+   Signature: HARD 2px rules, square corners, no soft shadows.
+   Depth comes from offset "hard" shadows, not blur.
+   ============================================================ */
+:root {
+  /* Borders — the brand's primary structural device */
+  --border-w:      2px;
+  --border-w-thick:3px;
+  --rule:          var(--border-w) solid var(--ink);
+
+  /* Radii — square by default; 2px is the only softening allowed */
+  --radius-0:  0px;
+  --radius-sm: 2px;
+  --radius:    2px;
+
+  /* "Hard" offset shadows (no blur) — the editorial card lift */
+  --shadow-hard:    4px 4px 0 var(--ink);
+  --shadow-hard-lg: 7px 7px 0 var(--ink);
+  --shadow-lime:    4px 4px 0 var(--lime);
+
+  /* Motion — snappy, mechanical. No bouncy easing. */
+  --ease:        cubic-bezier(0.2, 0, 0, 1);
+  --dur-fast:    120ms;
+  --dur:         200ms;
+  --dur-slow:    320ms;
+
+  /* Focus ring */
+  --focus: 0 0 0 3px var(--lime);
+}

@@ -1,0 +1,58 @@
+/* ============================================================
+   TOYMEET — Color tokens
+   "Hard Cut" — paper + ink + one acid-lime accent.
+   Brutalist editorial: high contrast, no soft greys-as-decoration.
+   ============================================================ */
+:root {
+  /* --- Base palette --- */
+  --paper:        #ECEAE3;  /* primary background — warm off-white newsprint */
+  --paper-2:      #E2DFD5;  /* recessed panel / alt row */
+  --paper-3:      #D6D2C6;  /* hairline fills, disabled surfaces */
+
+  --ink:          #0D0D0D;  /* primary text, rules, borders */
+  --ink-2:        #34332E;  /* secondary text */
+  --ink-3:        #6E6B62;  /* muted / meta text on paper */
+
+  --lime:         #C8FF00;  /* THE accent — highlights, CTAs */
+  --lime-press:   #AEE000;  /* pressed / active lime */
+  --lime-ink:     #1A1F00;  /* text that sits on lime */
+
+  /* Rare functional hue — used sparingly for links/notices */
+  --signal:       #2B2BE5;
+
+  /* --- Semantic aliases (use these in components) --- */
+  --bg:            var(--paper);
+  --surface:       var(--paper);
+  --surface-sunk:  var(--paper-2);
+  --surface-fill:  var(--paper-3);
+
+  --text:          var(--ink);
+  --text-secondary:var(--ink-2);
+  --text-muted:    var(--ink-3);
+  --text-on-accent:var(--lime-ink);
+  --text-inverse:  var(--paper);
+
+  --border:        var(--ink);        /* signature 2px hard rule */
+  --border-soft:   rgba(13,13,13,0.18);
+
+  --accent:        var(--lime);
+  --accent-press:  var(--lime-press);
+  --link:          var(--signal);
+}
+
+/* Inverse scope — flip to ink background (footers, feature blocks) */
+.theme-invert,
+[data-theme="invert"] {
+  --bg:            var(--ink);
+  --surface:       var(--ink);
+  --surface-sunk:  #1A1A18;
+  --surface-fill:  #26251F;
+
+  --text:          var(--paper);
+  --text-secondary:#C9C6BC;
+  --text-muted:    #8C887D;
+  --text-inverse:  var(--ink);
+
+  --border:        var(--paper);
+  --border-soft:   rgba(236,234,227,0.2);
+}

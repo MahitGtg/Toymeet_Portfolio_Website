@@ -1,0 +1,39 @@
+/* ============================================================
+   TOYMEET — Typography tokens
+   Display = Anton (condensed, uppercase, set TIGHT).
+   Everything else = Archivo.
+   ============================================================ */
+:root {
+  --font-display: 'Anton', 'Arial Narrow', sans-serif;
+  --font-body:    'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --font-meta:    'Archivo', 'Helvetica Neue', Arial, sans-serif; /* set uppercase + tracked */
+
+  /* Weights (Anton is single-weight 400) */
+  --fw-regular: 400;
+  --fw-medium:  500;
+  --fw-semi:    600;
+  --fw-bold:    700;
+  --fw-black:   900;
+
+  /* --- Type scale (display is huge & condensed) --- */
+  --text-mega:    clamp(64px, 12vw, 168px);  /* hero one-worders */
+  --text-display: clamp(48px, 8vw, 104px);   /* section heroes */
+  --text-h1:      clamp(40px, 5vw, 64px);
+  --text-h2:      clamp(30px, 3.4vw, 44px);
+  --text-h3:      24px;
+  --text-lg:      19px;
+  --text-body:    16px;
+  --text-sm:      14px;
+  --text-meta:    12px;   /* tracked uppercase labels */
+
+  /* --- Line heights --- */
+  --lh-display: 0.86;
+  --lh-tight:   1.05;
+  --lh-snug:    1.3;
+  --lh-body:    1.55;
+
+  /* --- Tracking --- */
+  --track-display: 0.01em;
+  --track-meta:    0.14em;
+  --track-tight:  -0.01em;
+}
