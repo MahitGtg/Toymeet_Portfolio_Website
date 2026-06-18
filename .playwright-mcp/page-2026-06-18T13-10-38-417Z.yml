@@ -1,0 +1,259 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - button "TOYMEET®" [ref=e5] [cursor=pointer]
+    - navigation [ref=e6]:
+      - button "Work" [ref=e7] [cursor=pointer]
+      - button "About" [ref=e8] [cursor=pointer]
+      - button "Contact" [ref=e9] [cursor=pointer]
+    - link "X profile" [ref=e10]:
+      - /url: https://x.com/ToymeetXd
+      - img [ref=e11]
+      - generic [ref=e13]: "@ToymeetXd"
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]: Toymeet®
+        - generic [ref=e18]: Short-form video editor · 21
+      - heading "Every second counts." [level=1] [ref=e19]:
+        - generic [ref=e21]: Every
+        - generic [ref=e23]: second
+        - emphasis [ref=e26]: counts.
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]: Available for clips
+          - paragraph [ref=e31]: I'm Toymeet, a 21-year-old short-form video editor. I cut game highlights, promos, and guide videos for the biggest names in TFT and gaming — fast, punchy edits built to stop the scroll. I don't just trim clips; I build the story.
+          - generic [ref=e32]:
+            - button "View the work" [ref=e33] [cursor=pointer]
+            - button "Hire Toymeet" [ref=e34] [cursor=pointer]
+        - generic [ref=e35]:
+          - img "Toymeet" [ref=e36]
+          - generic [ref=e37]: Editor
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - text: SendTFT
+          - generic [ref=e41]: ✦
+        - generic [ref=e42]:
+          - text: Dishsoap
+          - generic [ref=e43]: ✦
+        - generic [ref=e44]:
+          - text: Frodan
+          - generic [ref=e45]: ✦
+        - generic [ref=e46]:
+          - text: robinsongz
+          - generic [ref=e47]: ✦
+        - generic [ref=e48]:
+          - text: TFT Academy
+          - generic [ref=e49]: ✦
+        - generic [ref=e50]:
+          - text: Subzeroark
+          - generic [ref=e51]: ✦
+        - generic [ref=e52]:
+          - text: Emilyywang
+          - generic [ref=e53]: ✦
+        - generic [ref=e54]:
+          - text: BloodyTFT
+          - generic [ref=e55]: ✦
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - text: SendTFT
+          - generic [ref=e58]: ✦
+        - generic [ref=e59]:
+          - text: Dishsoap
+          - generic [ref=e60]: ✦
+        - generic [ref=e61]:
+          - text: Frodan
+          - generic [ref=e62]: ✦
+        - generic [ref=e63]:
+          - text: robinsongz
+          - generic [ref=e64]: ✦
+        - generic [ref=e65]:
+          - text: TFT Academy
+          - generic [ref=e66]: ✦
+        - generic [ref=e67]:
+          - text: Subzeroark
+          - generic [ref=e68]: ✦
+        - generic [ref=e69]:
+          - text: Emilyywang
+          - generic [ref=e70]: ✦
+        - generic [ref=e71]:
+          - text: BloodyTFT
+          - generic [ref=e72]: ✦
+    - generic [ref=e73]:
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - generic [ref=e77]: "01"
+            - text: Selected work
+          - heading "The shorts" [level=2] [ref=e78]
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - text: 0M
+            - generic [ref=e81]: +
+          - generic [ref=e82]: combined views
+      - generic [ref=e83]:
+        - generic [ref=e84]: Currently working with
+        - generic [ref=e85]: 6 clients
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - article [ref=e89]:
+            - generic [ref=e90]:
+              - iframe [ref=e91]:
+                - generic "YouTube Video Player" [ref=f388e3]
+              - button "Turn sound on for SendTFT short" [ref=e92] [cursor=pointer]
+              - generic: "01"
+              - generic: Muted · tap for sound
+            - generic [ref=e93]:
+              - generic [ref=e94]:
+                - generic [ref=e95]: SendTFT
+                - text: "@SendTFT"
+              - generic [ref=e96]: Now playing
+          - article [ref=e98]:
+            - generic [ref=e99]:
+              - img "Dishsoap short"
+              - button "Bring Dishsoap short to front" [ref=e100] [cursor=pointer]
+              - generic: "02"
+              - generic:
+                - img
+                - text: Tap to focus
+            - generic [ref=e101]:
+              - generic [ref=e102]:
+                - generic [ref=e103]: Dishsoap
+                - text: "@Dishsoaptft"
+              - generic [ref=e104]: Reel
+          - article [ref=e106]:
+            - generic [ref=e107]:
+              - img "Frodan short"
+              - button "Bring Frodan short to front" [ref=e108] [cursor=pointer]
+              - generic: "03"
+              - generic:
+                - img
+                - text: Tap to focus
+            - generic [ref=e109]:
+              - generic [ref=e110]:
+                - generic [ref=e111]: Frodan
+                - text: "@Frodan"
+              - generic [ref=e112]: Reel
+          - article [ref=e114]:
+            - generic [ref=e115]:
+              - img "robinsongz short"
+              - button "Bring robinsongz short to front" [ref=e116] [cursor=pointer]
+              - generic: "04"
+              - generic:
+                - img
+                - text: Tap to focus
+            - generic [ref=e117]:
+              - generic [ref=e118]:
+                - generic [ref=e119]: robinsongz
+                - text: "@robinsongz"
+              - generic [ref=e120]: Reel
+          - article [ref=e122]:
+            - generic [ref=e123]:
+              - img "TFT Academy short"
+              - button "Bring TFT Academy short to front" [ref=e124] [cursor=pointer]
+              - generic: "05"
+              - generic:
+                - img
+                - text: Tap to focus
+            - generic [ref=e125]:
+              - generic [ref=e126]:
+                - generic [ref=e127]: TFT Academy
+                - text: "@TFT_Academy"
+              - generic [ref=e128]: Reel
+          - article [ref=e130]:
+            - generic [ref=e131]:
+              - img "Subzeroark short"
+              - button "Bring Subzeroark short to front" [ref=e132] [cursor=pointer]
+              - generic: "06"
+              - generic:
+                - img
+                - text: Tap to focus
+            - generic [ref=e133]:
+              - generic [ref=e134]:
+                - generic [ref=e135]: Subzeroark
+                - text: "@Subzeroark"
+              - generic [ref=e136]: Reel
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - button "Previous clip" [ref=e140] [cursor=pointer]:
+              - img [ref=e141]
+            - button "Next clip" [ref=e143] [cursor=pointer]:
+              - img [ref=e144]
+          - generic [ref=e146]:
+            - button "Go to clip 1" [ref=e147] [cursor=pointer]
+            - button "Go to clip 2" [ref=e148] [cursor=pointer]
+            - button "Go to clip 3" [ref=e149] [cursor=pointer]
+            - button "Go to clip 4" [ref=e150] [cursor=pointer]
+            - button "Go to clip 5" [ref=e151] [cursor=pointer]
+            - button "Go to clip 6" [ref=e152] [cursor=pointer]
+          - generic [ref=e154]:
+            - text: "01"
+            - emphasis [ref=e155]: / 06
+        - generic [ref=e157]: ↕ scroll to move through the reel · tap the front clip for sound
+      - generic [ref=e159]: Previously worked with
+      - generic [ref=e160]:
+        - link "Emilyywang on YouTube" [ref=e161]:
+          - /url: https://www.youtube.com/@emilyywang
+          - img "Emilyywang channel avatar" [ref=e162]
+          - generic [ref=e163]:
+            - generic [ref=e164]: Emilyywang
+            - generic [ref=e165]: "@emilyywang"
+          - img [ref=e166]
+        - link "BloodyTFT on YouTube" [ref=e168]:
+          - /url: https://www.youtube.com/@BloodyTFT
+          - img "BloodyTFT channel avatar" [ref=e169]
+          - generic [ref=e170]:
+            - generic [ref=e171]: BloodyTFT
+            - generic [ref=e172]: "@BloodyTFT"
+          - img [ref=e173]
+    - generic [ref=e175]:
+      - generic [ref=e176]:
+        - generic [ref=e177]:
+          - generic [ref=e178]: "02"
+          - text: About
+        - heading "Storytelling, frame by frame." [level=2] [ref=e179]:
+          - text: Storytelling,
+          - text: frame by frame.
+      - generic [ref=e180]:
+        - generic [ref=e181]:
+          - generic [ref=e182]: What I do
+          - paragraph [ref=e183]: Short-form is its own craft — pacing, punch, and retention from the first frame. I build edits that hook in the first second and hold to the last.
+        - generic [ref=e184]:
+          - generic [ref=e185]: Specialties
+          - generic [ref=e186]:
+            - generic [ref=e187]: Game highlights
+            - generic [ref=e188]: Promo videos
+            - generic [ref=e189]: Guide videos
+            - generic [ref=e190]: Short-form / Shorts
+            - generic [ref=e191]: TFT / gaming
+        - generic [ref=e192]:
+          - generic [ref=e193]: Editor
+          - generic [ref=e194]:
+            - generic [ref=e195]: Toymeet
+            - generic [ref=e196]: Short-form video editor
+            - emphasis [ref=e197]: 21 years old · @ToymeetXd
+  - contentinfo [ref=e198]:
+    - generic [ref=e199]:
+      - generic [ref=e200]: Got a channel that needs edits?
+      - heading "Let’s make every second count." [level=2] [ref=e201]:
+        - text: Let’s make
+        - text: every second
+        - emphasis [ref=e202]: count.
+      - link "Start a project" [ref=e203] [cursor=pointer]:
+        - /url: mailto:toymeetxd@gmail.com
+    - generic [ref=e204]:
+      - link "Email toymeetxd@gmail.com" [ref=e205]:
+        - /url: mailto:toymeetxd@gmail.com
+        - generic [ref=e206]: Email
+        - generic [ref=e207]: toymeetxd@gmail.com
+      - link "X / Twitter @ToymeetXd" [ref=e208]:
+        - /url: https://x.com/ToymeetXd
+        - generic [ref=e209]: X / Twitter
+        - generic [ref=e210]: "@ToymeetXd"
+    - generic [ref=e211]:
+      - generic [ref=e212]: © Toymeet
+      - generic [ref=e213]: Short-form video editor
+      - link "Site by mahitg" [ref=e214]:
+        - /url: https://www.mahitg.com/
+        - text: Site by mahitg
+        - generic [ref=e215]: ↗

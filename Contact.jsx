@@ -22,6 +22,9 @@ function Contact() {
       <div className="tmk-contact__base">
         <span>© Toymeet</span>
         <span>Short-form video editor</span>
+        <a className="tmk-contact__credit" href="https://www.mahitg.com/" target="_blank" rel="noreferrer">
+          Site by mahitg <span aria-hidden="true">↗</span>
+        </a>
       </div>
     </footer>
   );

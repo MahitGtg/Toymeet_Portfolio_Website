@@ -251,8 +251,14 @@
   .tmk-contact__details a span{font-size:11px;text-transform:uppercase;letter-spacing:0.14em;color:var(--ink-3);}
   .tmk-contact__details a b{font-size:18px;font-weight:600;word-break:break-word;}
   .tmk-contact__details a:hover b{color:var(--lime);}
-  .tmk-contact__base{display:flex;justify-content:space-between;margin-top:40px;padding-top:18px;
+  .tmk-contact__base{display:flex;justify-content:space-between;align-items:center;margin-top:40px;padding-top:18px;
     border-top:1px solid rgba(236,234,227,0.25);font-size:11px;text-transform:uppercase;letter-spacing:0.12em;color:var(--ink-3);flex-wrap:wrap;gap:8px;}
+  .tmk-contact__credit{color:var(--ink-3);text-decoration:none;display:inline-flex;align-items:center;gap:5px;
+    border:var(--border-w) solid rgba(236,234,227,0.25);border-radius:var(--radius-sm);padding:6px 11px;
+    transition:color var(--dur) var(--ease),border-color var(--dur) var(--ease),background var(--dur) var(--ease);}
+  .tmk-contact__credit span{transition:transform var(--dur) var(--ease);}
+  .tmk-contact__credit:hover{color:var(--lime-ink);background:var(--lime);border-color:var(--lime);}
+  .tmk-contact__credit:hover span{transform:translate(2px,-2px);}
 
   /* ---- SCROLL REVEAL ---- */
   @media (prefers-reduced-motion:no-preference){
