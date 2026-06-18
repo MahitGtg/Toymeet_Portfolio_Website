@@ -268,7 +268,7 @@ function Work() {
       <div className="tmk-sec-head tmk-work__head">
         <div>
           <MetaLabel rule strong index="01">Selected work</MetaLabel>
-          <h2 className="tmk-sec-title">The reel</h2>
+          <h2 className="tmk-sec-title">The shorts</h2>
         </div>
         <div className={'tmk-work__total' + (revealed ? ' is-revealed' : '')} ref={countRef}>
           <b>{Math.round(count)}M<span>+</span></b>

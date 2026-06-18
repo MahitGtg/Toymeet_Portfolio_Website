@@ -51,7 +51,7 @@ function Hero({ onNav }) {
               size="lg"
               onClick={() => onNav("contact")}
             >
-              Book Toymeet
+              Hire Toymeet
             </Button>
           </div>
         </div>
